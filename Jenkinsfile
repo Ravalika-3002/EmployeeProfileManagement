@@ -9,6 +9,7 @@ pipeline {
 
     // Various stages in the Pipeline Process:
     //next coomit
+    //next
     stages {
         stage('Checkout') {
             steps {
