@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Ravalika-3002/EmployeeProfileManagement.git'
+                git branch: 'master', url: 'https://github.com/Ravalika-3002/EmployeeProfileManagement.git'
             }
         }
 
@@ -30,6 +30,7 @@ pipeline {
             }
         }
     }
+    //ravalika
 
     post {
         success {
